@@ -72,12 +72,12 @@ $(document).ready(function() {
         var icon=$('.js--nav-icon i');
 
         nav.slideToggle(200);
-        if(icon.hasClass('ion-navicon-round')){
-            icon.addClass("ion-close-round");
-            icon.removeClass('ion-navicon-round');
+        if(icon.hasClass("fas fa-bars")){
+            icon.addClass("fas fa-times");
+            icon.removeClass("fas fa-bars");
         } else{
-            icon.addClass("ion-navicon-round");
-            icon.removeClass('ion-close-round');
+            icon.addClass("fas fa-bars");
+            icon.removeClass("fas fa-times");
 
 
         }
